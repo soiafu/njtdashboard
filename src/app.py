@@ -10,7 +10,7 @@ import pandas as pd
 # Load the my_df dataset from Seaborn
 # my_df = pd.read_csv(r"C:\Users\User\OneDrive\Documents\CS 450\project 1\njtdata18-19 - Copy.csv", low_memory=False).dropna()
 # my_df.to_csv("njt.csv")
-my_df = pd.read_csv("njt.csv").dropna()
+my_df = pd.read_csv("assets/njt.csv").dropna()
 model_pipeline=None
 
 # custom color scheme based on NJT branding
