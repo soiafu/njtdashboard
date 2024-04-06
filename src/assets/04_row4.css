@@ -1,0 +1,47 @@
+#row4 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1; /* use the available space for width after padding */
+    height: 500px;
+    padding: 10px;
+}
+
+.row4_child1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Set height to 100% to fill the parent div */
+    padding: 10px;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid rgb(218, 218, 218,0.5);
+    
+}
+
+.row4_child2 {
+    height: 100%; /* Set height to 100% to fill the parent div */
+    padding:0px;
+    flex: 1;
+    border: 1px solid rgb(218, 218, 218,0.5);
+}
+
+.rc-slider-rail{
+    background-color: #a2a2a2;
+}
+.rc-slider-track{
+    background-color: #282828;
+}
+.rc-slider-dot {
+    border: 2px solid #7c7c7c;
+    background-color: #777777;
+}
+.rc-slider-handle {
+    border: solid 2px #868686;
+    background-color: #fff;
+}
+.rc-slider-mark-text {
+    color: #3e3e3e;
+}
